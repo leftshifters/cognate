@@ -45,6 +45,10 @@ or
 grunt nodeunit
 ````
 
+## References
+http://en.wikipedia.org/wiki/Windows-1252#Codepage_layout
+http://www.andornot.com/blog/post/Replace-MS-Word-special-characters-in-javascript-and-C.aspx
+
 ## License
 Copyright (c) 2014 Prama
 Licensed under the MIT license.
