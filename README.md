@@ -1,26 +1,49 @@
-# cognate [![Build Status](https://secure.travis-ci.org/prama/cognate.png?branch=master)](http://travis-ci.org/prama/cognate)
+# cognate [![Build Status](https://secure.travis-ci.org/vxtindia/cognate.png?branch=master)](http://travis-ci.org/prama/cognate)
 
-The best project ever.
+Replace MS word special characters with ASCII cognates.
 
-## Getting Started
-Install the module with: `npm install cognate`
+## Installation
+`npm install cognate`
 
+## Usage
 ```javascript
 var cognate = require('cognate');
-cognate.awesome(); // "awesome"
+
+//Replace smart single quotes and apostrophe (\u2018 \u2019 \u201A)
+cognate.replace("‘’‚"); // "'''"
+
+//Replace smart double quotes(\u201E \u201C \u201D)
+cognate.replace("„“”"); // """""
+
+//Replace dashes(\u2013, \u2014)
+cognate.replace("–—"); // "--"
+
+//Replace circumflex (\u02C6)
+cognate.replace("ˆ"); // "^"
+
+//Replace open angle bracket (\u2039)
+cognate.replace("‹"); // "<"
+
+//Replace close angle bracket (\u203A)
+cognate.replace("›"); // ">"
+
+//Replace spaces (\u02DC, \u00A0)
+cognate.replace("˜ \u00A0"); // "   "
+
 ```
 
-## Documentation
-_(Coming soon)_
+## Tests
+Run tests
 
-## Examples
-_(Coming soon)_
+````
+npm test
+````
 
-## Contributing
-In lieu of a formal styleguide, take care to maintain the existing coding style. Add unit tests for any new or changed functionality. Lint and test your code using [Grunt](http://gruntjs.com/).
+or
 
-## Release History
-_(Nothing yet)_
+````
+grunt nodeunit
+````
 
 ## License
 Copyright (c) 2014 Prama

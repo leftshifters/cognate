@@ -52,11 +52,13 @@ exports['replace'] = {
     test.strictEqual(cognate.replace("ˆ‹›"), '^<>', 'should be ^<> for u02C6 u2039 u203A');
     test.done();
   },
+
   '02DC': function(test) {
     test.expect(1);
     test.strictEqual(cognate.replace("˜"), ' ', 'should be  for 02DC');
     test.done();
   },
+
   '00A0': function(test) {
     test.expect(1);
     test.strictEqual(cognate.replace("test \u00A0"), 'test  ', 'should be test  for u00A0');
