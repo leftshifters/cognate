@@ -1,6 +1,6 @@
 {
   "name": "cognate",
-  "description": "The best project ever.",
+  "description": "Replace MS word special characters with ASCII cognates",
   "version": "0.1.0",
   "homepage": "https://github.com/vxtindia/cognate",
   "author": {
