@@ -1,7 +1,7 @@
 {
   "name": "cognate",
   "description": "Replace MS word special characters with ASCII cognates",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "homepage": "https://github.com/vxtindia/cognate",
   "author": {
     "name": "Prama Chakraborty",
@@ -33,6 +33,6 @@
     "grunt-contrib-watch": "~0.5.3",
     "grunt": "~0.4.3"
   },
-  "keywords": [],
+  "keywords": ["encoding", "word", "msword", "character", "cognate"],
   "dependencies": {}
 }
