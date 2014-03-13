@@ -1,4 +1,4 @@
-# cognate [![Build Status](https://secure.travis-ci.org/vxtindia/cognate.png?branch=master)](http://travis-ci.org/prama/cognate)
+# cognate [![Build Status](https://secure.travis-ci.org/vxtindia/cognate.png?branch=master)](http://travis-ci.org/vxtindia/cognate)
 
 Replace MS word special characters with ASCII cognates.
 
